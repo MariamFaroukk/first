@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Test level]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="running by xml file(failed)">
+    <classes>
+      <class name="TestLevel.NewTestForLevelTest">
+        <methods>
+          <include name="LeinProductScenarioTest"/>
+          <include name="PreliminryProductScenarioTest"/>
+          <include name="stopnotify"/>
+          <include name="LeinAndbondProductScenarioTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="NoticeProductScenarioTest"/>
+        </methods>
+      </class> <!-- TestLevel.NewTestForLevelTest -->
+    </classes>
+  </test> <!-- running by xml file(failed) -->
+</suite> <!-- Failed suite [Testing Test level] -->
